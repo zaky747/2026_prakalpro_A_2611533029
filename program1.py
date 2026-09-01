@@ -8,6 +8,6 @@ print("Hello World")
 print()
 print("Program ini menghasilkan")
 print("Empat baris output")
-print("/ \\ // \\\\ /// \\\\\")
+print("/ \\ // \\\\ /// \\\\\ ")
 print("program ini" + " dibuat oleh a/n"
 + " zaky afiq taha dan 2611533029.")

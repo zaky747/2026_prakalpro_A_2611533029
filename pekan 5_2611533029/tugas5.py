@@ -9,30 +9,12 @@ for i_3029 in range(lebar_3029):
     print("=", end="")
 print("#")
 
-for baris_3029 in range(ukuran_3029, 0, -1):
-    print("|", end="")
-    print(" ", end="")                                  
-    for spasi_3029 in range(2 * (ukuran_3029 - baris_3029)):
-        print(" ", end="")
-    for angka_3029 in range(baris_3029, 0, -1):        
-        print(angka_3029, end=" ")
-    print("<*>", end="")                               
-    for angka_3029 in range(1, baris_3029 + 1):        
-        print(" ", angka_3029, sep="", end="")
-    for spasi_3029 in range(2 * (ukuran_3029 - baris_3029)):
-        print(" ", end="")
-    print(" ", end="")                                 
-    print("|")
+for urutan_3029 in range(2 * ukuran_3029 + 1):
+    if urutan_3029 <= ukuran_3029:
+        baris_3029 = ukuran_3029 - urutan_3029
+    else:
+        baris_3029 = urutan_3029 - ukuran_3029
 
-print("|", end="")
-for spasi_3029 in range(2 * ukuran_3029 + 1):
-    print(" ", end="")
-print("<*>", end="")
-for spasi_3029 in range(2 * ukuran_3029 + 1):
-    print(" ", end="")
-print("|")
-
-for baris_3029 in range(1, ukuran_3029 + 1):
     print("|", end="")
     print(" ", end="")
     for spasi_3029 in range(2 * (ukuran_3029 - baris_3029)):
